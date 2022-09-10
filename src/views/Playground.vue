@@ -4,4 +4,14 @@ import Banner from '../components/banners/Banner.vue';
 
 <template>
     <Banner msg="Parm's Blog"></Banner>
+    <span>
+        Lorm
+    </span>
+    <span>
+        <button>Resume</button>
+    </span>
 </template>
+
+<script lang="ts">
+
+</script>
