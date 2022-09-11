@@ -1,7 +1,7 @@
 <template>
     <div class="frame">
         <div class="background">
-            <img class="profile-pic" src="src/assets/me7.jpg" placeholder="parm's image" />
+            <img class="profile-pic" src="../../assets/me7.jpg" placeholder="parm's image" />
 
             <span class="about-info">
                 My name is Parm.
