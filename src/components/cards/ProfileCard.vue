@@ -41,8 +41,25 @@
     display: flex;
 }
 
-@media screen {
-    
-}
+@media screen and (max-width: 1024px) {
+    .background {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    }
 
+    .frame {
+        height: 400px;
+    }
+
+    .profile-pic {
+        top: 0px;
+        left: 0px;
+    }
+
+    .about-info {
+        margin-left: 0px;
+    }
+}
 </style>
