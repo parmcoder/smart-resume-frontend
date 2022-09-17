@@ -27,20 +27,17 @@ import IconCommunity from "../icons/IconCommunity.vue";
         </SocialButton>
     </div>
     <div class="container">
-        <SocialButton text="GITHUB" url="https://www.github.com/parmcoder">
+        <SocialButton text="Instagram" url="https://www.github.com/parmcoder">
             <template #icon>
                 <IconCommunity></IconCommunity>
             </template>
         </SocialButton>
-        <SocialButton text="LinkedIn" url="https://www.linkedin.com/in/parmcoder">
+        <SocialButton text="Discord" url="https://www.linkedin.com/in/parmcoder">
             <template #icon>
                 <IconCommunity></IconCommunity>
             </template>
         </SocialButton>
-        <SocialButton text="LinkedIn" url="https://www.linkedin.com/in/parmcoder">
-            <template #icon>
-                <IconCommunity></IconCommunity>
-            </template>
+        <SocialButton text="🎮😈💻" url="https://y.at/%F0%9F%8E%AE%F0%9F%98%88%F0%9F%92%BB">
         </SocialButton>
     </div>
 </template>

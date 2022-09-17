@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineComponent } from 'vue';
-
 defineProps<{
     text: string,
     url: string
@@ -9,10 +7,11 @@ defineProps<{
 
 <template>
     <div>
-        <a :href="url" target="_blank" class="container"> <i>
+        <a :href="url" target="_blank" class="container">
+            <i>
                 <slot name="icon"></slot>
             </i>
-            <h1 style="margin-left: 20px">
+            <h1 :class="{ left: this.$slots.icon }">
                 {{text}}
             </h1>
 
@@ -27,16 +26,10 @@ defineProps<{
     height: 75px;
     justify-content: center;
     align-items: center;
+
+}
+
+.left {
+    margin-left: 20px;
 }
 </style>
-
-<script lang="ts">
-export default defineComponent(
-    {
-        data() {
-            return {
-                count: 1
-            }
-        }
-    })
-</script>

@@ -17,6 +17,7 @@
     /* min-width: 200px; */
     flex: 1 0 auto;
     margin-left: 30px;
+    font-size: large;
     display: flex;
     align-items: center;
     justify-content: center;
