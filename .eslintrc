@@ -4,9 +4,9 @@
         "es6": true
     },
     "plugins": [
-        "prettier",
-        "cypress"
+        "prettier"
     ],
+    "ignorePatterns": ["**/e2e/*.ts"],
     "extends": [
         "plugin:vue/vue3-essential",
         "eslint:recommended"
