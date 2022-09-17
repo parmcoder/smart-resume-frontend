@@ -1,17 +1,23 @@
 <script setup lang="ts">
+import { computed, useSlots } from 'vue';
+
 defineProps<{
     text: string,
     url: string
 }>()
+
+const slots = useSlots()
+
+const hasIconSlot = computed(() => slots.icon)
 </script>
 
 <template>
     <div>
-        <a :href="url" target="_blank" :class="{ container: this.$slots.icon, yat: !this.$slots.icon }">
-            <i v-if="this.$slots.icon">
+        <a :href="url" target="_blank" :class="{ container: hasIconSlot, yat: !hasIconSlot }">
+            <i v-if="hasIconSlot">
                 <slot name="icon"></slot>
             </i>
-            <h1 :class="{ left: this.$slots.icon }">
+            <h1 :class="{ left: hasIconSlot }">
                 {{text}}
             </h1>
 
