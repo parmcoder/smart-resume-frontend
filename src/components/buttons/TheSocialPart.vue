@@ -27,12 +27,12 @@ import IconOnlyfan from "../icons/IconOnlyfan.vue";
         </SocialButton>
     </div>
     <div class="container">
-        <SocialButton text="Instagram" url="https://www.github.com/parmcoder">
+        <SocialButton text="Instagram" url="https://www.instagram.com/parmcoder">
             <template #icon>
                 <font-awesome-icon icon="fa-brands fa-instagram" class="fa-xl"/>
             </template>
         </SocialButton>
-        <SocialButton text="Discord" url="https://www.linkedin.com/in/parmcoder">
+        <SocialButton text="Discord" url="https://a.y.at/redirect?emoji_id=%F0%9F%8E%AE%F0%9F%98%88%F0%9F%92%BB&link=aHR0cHM6Ly9kaXNjb3JkLmdnL1dydkh6aHQ4">
             <template #icon>
                 <font-awesome-icon icon="fa-brands fa-discord" class="fa-xl"/>
             </template>
